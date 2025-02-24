@@ -719,7 +719,9 @@ GameObject:
   - component: {fileID: 1690051054}
   - component: {fileID: 1690051053}
   - component: {fileID: 1690051052}
-  - component: {fileID: 1690051056}
+  - component: {fileID: 1690051059}
+  - component: {fileID: 1690051058}
+  - component: {fileID: 1690051057}
   m_Layer: 0
   m_Name: MultiCube
   m_TagString: Untagged
@@ -813,7 +815,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1690051056
+--- !u!114 &1690051057
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -822,10 +824,36 @@ MonoBehaviour:
   m_GameObject: {fileID: 1690051051}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 446a33336c28a2e4ebc263f9df6a5d1f, type: 3}
+  m_Script: {fileID: 11500000, guid: 62351ee775ab33c43b82d6d816bfe18c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _speed: 0.01
+--- !u!114 &1690051058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1690051051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7628806e45d99724db6cbd0e0549c341, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 0.1
+--- !u!114 &1690051059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1690051051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef1b137edfcc52747a2281653e57430e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _speed: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
